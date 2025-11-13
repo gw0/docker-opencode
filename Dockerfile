@@ -99,7 +99,7 @@ RUN userdel -r bun \
  && ln -snf ../../.opencode/state/ /home/${USER}/.local/state/opencode \
  && ln -snf ./.opencode/.bash_history /home/${USER}/.bash_history
 
-COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
+COPY scripts/* /usr/local/bin/
 COPY opencode-defaults/ /home/${USER}/.opencode-defaults
 COPY agents/ /home/${USER}/.opencode-defaults/agent
 
