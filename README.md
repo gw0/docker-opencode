@@ -1,4 +1,4 @@
-# Containerized OpenCode TUI and AI agents
+# Containerized OpenCode and AI agents
 
 Docker environment for running OpenCode TUI with isolated AI agents.
 
@@ -22,20 +22,6 @@ $ docker run -it --rm \
   opencode opencode --agent "research"
 ```
 
-## Available specialized agents
-
-| Agent | Description |
-|-------|-------------|
-| `code` | Code writer/developer |
-| `debug` | Code debugger |
-| `docs` | Documentation writer/maintainer |
-| `plan2` | Solution planner/architect |
-| `refactor` | Code refactorer |
-| `research` | Researcher/advisor |
-| `review` | Code reviewer |
-| `test` | Test runner and validator |
-| `security` | Security auditor |
-
 ## Shell integration
 
 Add to `~/.bashrc` and restart shell:
@@ -52,6 +38,20 @@ opencode-code
 # or
 opencode-review "Review recent changes"
 ```
+
+## Available specialized agents
+
+| Agent | Description |
+|-------|-------------|
+| `code` | Code writer/developer |
+| `debug` | Code debugger |
+| `docs` | Documentation writer/maintainer |
+| `plan2` | Solution planner/architect |
+| `refactor` | Code refactorer |
+| `research` | Researcher/advisor |
+| `review` | Code reviewer |
+| `test` | Test runner and validator |
+| `security` | Security auditor |
 
 ## License
 
