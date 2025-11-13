@@ -19,7 +19,7 @@ $ docker run -it --rm \
   -w /workspace \
   -e DISPLAY=${DISPLAY} \
   -v /tmp/.X11-unix:/tmp/.X11-unix \
-  opencode opencode --agent "research"
+  ghcr.io/gw0/docker-opencode:main opencode --agent "research"
 ```
 
 ## Shell integration
